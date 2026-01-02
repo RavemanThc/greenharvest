@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GreenHarvest</title>
     <script type="module" crossorigin src="/greenharvest/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/greenharvest/assets/index-BlCF1Q-d.css">
+    <link rel="stylesheet" crossorigin href="/greenharvest/assets/index-D8eyAIHb.css">
   </head>
   <body>
     <header class="header">
@@ -39,7 +39,7 @@
   Green.Harvest
 </a>
   </div>
-  <button class="header-hamburger" aria-label="Menu">
+  <button class="header-hamburger" aria-label="Menu" header-hamburger >
   <span class="line line1"></span>
   <span class="line line2"></span>
   <span class="line line3"></span>
@@ -80,7 +80,7 @@
               </picture>
 </section>
 
-      <section class=" description ">
+      <section class=" description " id="description">
   <div class="description-image">
     <picture>
       <source
@@ -112,7 +112,7 @@
     <ul class="description-chapters">
       <li class="description-chapter">
         <div>
-          <div class="description-circle description-circle--big"><div class="description-circle description-circle--small"><p class="description-circle-number">2</p></div></div>
+          <div class="description-circle description-circle--big"><div class="description-circle description-circle--small"><p class="description-circle-number">1</p></div></div>
           
         </div>
         <p class="description-chapter-text">Just choose <span class="description-chapter-subtext">the vegetable</span> you want to order by clicking on the checkboxes <span class="description-chapter-subtext">next to it</span>.</p>
@@ -127,7 +127,7 @@
       </li>
       <li class="description-chapter">
         <div>
-          <div class="description-circle description-circle--big"><div class="description-circle description-circle--small"><p class="description-circle-number">2</p></div></div>
+          <div class="description-circle description-circle--big"><div class="description-circle description-circle--small"><p class="description-circle-number">3</p></div></div>
           
         </div>
         <p class="description-chapter-text">Sit back and relax! Your <span class="description-chapter-subtext">fresh vegetables</span> basket will be delivered.</p>
@@ -144,7 +144,7 @@
     <h3 class="advert-subtitle">Taste the vitamins and keep your health</h3>
   </div>
 </section>
-      <section class="vegetables">
+      <section class="vegetables" id="vegetables">
   <h2 class="vegetables-title">organic <span>vegetables</span></h2>
   <p>Our organic vegetables are hand-picked from local farms and delivered straight to your doorstep, ensuring that you get the freshest and most nutritious produce possible.</p>
   <ul class="vegetables-cards">
@@ -312,7 +312,7 @@
     </li>
   </ul>
 </section>
-      <section class="reviews">
+      <section class="reviews" id="reviews">
   <h2>
     reviews from our <span>customers</span>
   </h2>
@@ -469,9 +469,9 @@
   </p>
   <nav>
     <ul class="footer-links-box">
-      <li class="footer-anchor-links"><a href="#">how it works</a></li>
-      <li class="footer-anchor-links"><a href="#">vegetables</a></li>
-      <li class="footer-anchor-links"><a href="#">reviews</a></li>
+      <li class="footer-anchor-links"><a href="#description">how it works</a></li>
+      <li class="footer-anchor-links"><a href="#vegetables">vegetables</a></li>
+      <li class="footer-anchor-links"><a href="#reviews">reviews</a></li>
     </ul>
   </nav>
   <address class="footer-contacts">
@@ -485,5 +485,13 @@
   </div>
 </footer>
 
+    <div class="mobmenu" mobmenu>
+    <div class="mobmenu-btns">
+        <button type="button"><a href="#description">How It Works</a></button>
+        <button type="button"><a href="#">Vegetables</a></button>
+        <button type="button"><a href="#">Reviews</a></button>
+    </div>
+    <button type="button" class="mobmenu-shop-btn"><a href="">Shop now</a></button>
+</div>
   </body>
 </html>
