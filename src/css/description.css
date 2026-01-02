@@ -1,0 +1,85 @@
+.description-image{
+  padding: 40px 20px;
+  height: 532px;
+  background-color: #7A3145;
+  width: 100%;
+  margin-bottom: 80px;
+}
+.hero-girl_vegetable-image{
+  margin: 0 auto;
+}
+.description-title{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 20px;
+}
+.description-text-wrap{
+  color: #D4BFC4;
+}
+.description-subtitle{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  color: white;
+  margin-bottom: 40px;
+}
+.description-chapters{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.description-chapter{
+  border-radius: 15px;
+  padding: 12px 27px 12px 24px;
+  width: 335px;
+  height: 84px;
+  background-color: white;
+  display: flex;
+  gap: 24px;
+
+}
+.description-circle{
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+.description-circle--big{
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D4BFC4;
+}
+.description-circle--small{
+  width: 42px;
+  height: 42px;
+background-color: #7A3145;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.description-circle-number{
+  font-weight: 600;
+font-size: 18px;
+line-height: 111%;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: white;
+}
+.description-chapter-text{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  color: #858585;
+}
+.description-chapter-subtext{
+  font-weight: 700;
+  color: #141414;
+}

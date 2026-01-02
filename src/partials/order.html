@@ -1,0 +1,55 @@
+<section class="order">
+  <h2>
+    Fresh <span>Harvest</span> Box has got you covered
+  </h2>
+  <p>Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!
+  </p>
+  <div class="order-box">
+    <h3>Ordering <span class="order-text-red">from us</span> is quick and easy! Fill out <span class="order-text-green">the form</span> below and we will contact you !</h3>
+    <form action="" class="order-title-form">
+      <div>
+        <input name="full_name" type="text" placeholder="Full name" class="order-form form-name" required />
+        <label></label>
+      </div>
+      <div>
+        <input name="email" type="email" placeholder="Email" class="order-form form-email" required/>
+        <label></label>
+      </div>
+        <div>
+          <textarea name="comment" placeholder="Comment" rows="4" class="order-form form-comment"></textarea>
+          <label></label>
+        </div>
+      <button type="submit" class="order-form-btn">SEND</button>
+    </form>
+  </div>
+  <div class="order-image-box">
+    <picture>
+      <source 
+      media="(min-width:768px)"
+      srcset="./img/other_images/followus-desk-min.png    1x,
+      ./img/other_images@2x/followus-desk@2x-min.png    2x"/>
+      <source 
+      media="(min-width:1158px)"
+      srcset="./img/other_images/followus-tab-min.png    1x,
+      ./img/other_images@2x/followus-tab@2x-min.png    2x"/>
+      <source 
+      media="(max-width:767px)"
+      srcset="./img/other_images/followus-mob-min.png    1x,
+      ./img/other_images@2x/followus-mob@2x-min.png    2x"/>
+      <img 
+      src="./img/other_images/followus-desk-min.png"
+      alt="follow_us"
+      width="295px"
+      height="272px"
+      class="order-image"
+      />
+    </picture>
+    <p>Follow us on our social networks:</p>
+    <p class="order-links"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" >instagram</a> / 
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" >facebook</a> / 
+      <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" >youtube</a>
+    </p>
+  </div>
+  <div class="order-toast-message" id="toast">Form successfully submitted</div>
+
+</section>

@@ -1,0 +1,54 @@
+.vegetables{
+    padding: 80px 20px;
+    background-color: #7A3145;
+}
+.vegetables-title{
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 108%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+}
+.vegetables-title span{
+    color:#D4BFC4;
+}
+.vegetables-card h3{
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #7A3145;
+    margin-bottom: 12px;
+}
+.vegetables p{
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color:white;
+    margin-bottom: 40px;
+    margin-bottom: 12px;
+}
+.vegetables-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.vegetables-card{
+    width: 335px;
+    height: 376px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 32px 24px;
+}
+.vegetables-card p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color:black;
+}

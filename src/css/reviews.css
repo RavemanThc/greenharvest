@@ -1,0 +1,82 @@
+.reviews {
+    padding: 80px 20px;
+    background-color: #ffffff;
+}
+
+.reviews h2 {
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 108%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.reviews h2 span {
+    color: #576F35;
+}
+
+.reviews > p {
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: black;
+    margin-bottom: 40px;
+}
+
+
+.reviews-boxes {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 10px;
+}
+
+.reviews-boxes::-webkit-scrollbar {
+    display: none;
+}
+
+
+.reviews-box {
+    flex: 0 0 100%;  
+    max-width: 335px;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 16px;
+    border: 1px solid #D4BFC4;
+    border-radius: 24px;
+    background-color: #ffffff;
+}
+
+.reviews-box picture {
+    margin-bottom: 24px;
+}
+
+.reviews-box h3 {
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 111%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.reviews-box p {
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    text-align: center;
+    color: #858585;
+}
